@@ -1,0 +1,82 @@
+{
+  "project": {
+    "name": "Medical Image Steganography with Memetic Encryption",
+    "version": "1.0.0",
+    "seed": 42
+  },
+  "encryption": {
+    "algorithm": "memetic",
+    "mcg_modulus": 2147383648,
+    "mcg_multiplier": 1664525,
+    "max_iterations": 100,
+    "convergence_threshold": 0.001,
+    "mutation_rate": 0.1,
+    "crossover_types": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "steganography": {
+    "dwt_level": 1,
+    "wavelet": "haar",
+    "subbands": [
+      "HL",
+      "HH"
+    ],
+    "embedding_strength": 1,
+    "lsb_bits": 1
+  },
+  "experiments": {
+    "text_sizes": [
+      15,
+      30,
+      45,
+      55,
+      100,
+      128,
+      256
+    ],
+    "repetitions": 3,
+    "color_images": [
+      "fundus1.jpg",
+      "fundus2.jpg",
+      "fundus3.jpg",
+      "fundus4.jpg",
+      "fundus5.jpg"
+    ],
+    "grayscale_images": [
+      "xray1.jpg",
+      "xray2.jpg",
+      "xray3.jpg",
+      "xray4.jpg",
+      "xray5.jpg"
+    ]
+  },
+  "metrics": {
+    "calculate_psnr": true,
+    "calculate_mse": true,
+    "calculate_ssim": true,
+    "calculate_sc": true,
+    "calculate_correlation": true,
+    "calculate_ber": true
+  },
+  "paths": {
+    "data": "data",
+    "images_color": "data/images/color",
+    "images_grayscale": "data/images/grayscale",
+    "text_payloads": "data/text_payloads",
+    "raw_output": "data/raw_output",
+    "results_tables": "results/tables",
+    "results_graphs": "results/graphs",
+    "results_histograms": "results/histograms",
+    "figures": "figures",
+    "logs": "logs"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/experiment.log"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generator_seed": 42,
+  "sizes": [
+    15,
+    30,
+    45,
+    55,
+    100,
+    128,
+    256
+  ],
+  "files_generated": [
+    "payload_15bytes.txt",
+    "payload_30bytes.txt",
+    "payload_45bytes.txt",
+    "payload_55bytes.txt",
+    "payload_100bytes.txt",
+    "payload_128bytes.txt",
+    "payload_256bytes.txt"
+  ],
+  "verification": {
+    "payload_15bytes.txt": 15,
+    "payload_30bytes.txt": 30,
+    "payload_45bytes.txt": 45,
+    "payload_55bytes.txt": 55,
+    "payload_100bytes.txt": 100,
+    "payload_128bytes.txt": 128,
+    "payload_256bytes.txt": 256
+  }
+}
