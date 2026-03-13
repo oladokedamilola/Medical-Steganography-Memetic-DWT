@@ -274,7 +274,5 @@ Additional visualizations:
 
 ## License
 
-This research code is provided for academic and non-commercial use only.  
-© 2026 [Your Institution]
-
----
+This research code is provided for academic and non-commercial use only. 
+© 2026
