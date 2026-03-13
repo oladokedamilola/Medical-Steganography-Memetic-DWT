@@ -1,4 +1,3 @@
-```markdown
 # Secure Medical Image Transmission Using Memetic Algorithm Encryption and DWT Steganography
 
 ## Research Overview
