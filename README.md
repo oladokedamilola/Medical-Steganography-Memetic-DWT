@@ -302,20 +302,6 @@ All generated files are organized as follows:
 ### 📋 **Summary** (`results/`)
 - `results_summary.txt` - Complete overview of all results
 
----
-
-## Citation
-
-```bibtex
-@article{medical-stego-memetic-dwt,
-  title={Secure Medical Image Transmission Using Memetic Algorithm 
-         Encryption and DWT Steganography},
-  author={[Your Name]},
-  journal={[Journal Name]},
-  year={2026},
-  note={Average PSNR: 57.32 dB, BER: 0, 210 experiments}
-}
-```
 
 ---
 
