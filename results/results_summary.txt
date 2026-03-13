@@ -1,0 +1,38 @@
+================================================================================
+MEDICAL IMAGE STEGANOGRAPHY WITH MEMETIC ALGORITHM
+RESULTS SUMMARY
+Generated: 2026-03-13 12:46:59
+================================================================================
+
+EXPERIMENT STATISTICS:
+----------------------------------------
+Total images: 10
+Text sizes tested: 15, 30, 45, 55, 100, 128, 256
+Total experiments: 210
+
+OVERALL METRICS (Average ± Std):
+----------------------------------------
+PSNR: 57.32 ± 0.20 dB
+MSE: 0.120670 ± 0.005564
+SSIM: 1.0000 ± 0.0000
+BER: 0.000000
+
+Success Rate (Perfect Recovery): 85.7%
+
+================================================================================
+Generated files:
+- results/tables/table1_color_images.txt
+- results/tables/table2_grayscale_images.txt
+- results/tables/table3_all_metrics.txt
+- results/tables/table4_comparison.txt
+- results/tables/all_tables.pdf
+- figures/figure4_color_small.png
+- figures/figure5_color_large.png
+- figures/figure6_grayscale_small.png
+- figures/figure7_grayscale_large.png
+- results/graphs/psnr_comparison.png
+- results/graphs/ber_chart.png
+- results/graphs/ssim_comparison.png
+- results/graphs/correlation_comparison.png
+- results/graphs/literature_comparison.png
+================================================================================

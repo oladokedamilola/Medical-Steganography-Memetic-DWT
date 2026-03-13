@@ -1,4 +1,4 @@
-# save as 'install_dependencies.py'
+# install_dependencies.py'
 
 import subprocess
 import sys

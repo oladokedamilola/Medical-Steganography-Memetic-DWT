@@ -1,0 +1,168 @@
+# .gitignore for Medical IoT Security Project
+
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.py,cover
+.hypothesis/
+
+# ============================================
+# Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ============================================
+# IDE and Editor Files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+
+# ============================================
+# Project Specific - Raw Data & Outputs
+# ============================================
+
+# Raw experimental data (keep structure but ignore content)
+data/raw_output/
+data/experiment_results/raw/
+data/experiment_results/processed/
+data/experiment_results/csv/
+data/experiment_results/failed/
+data/experiment_results/progress.json
+data/experiment_results/statistics.json
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============================================
+# Large Dataset Folders - IGNORE THESE
+# ============================================
+
+# The large disease grading folder (7GB+)
+B. Disease Grading/
+B.\ Disease\ Grading/
+IDRiD_*/
+
+# Any other large dataset folders
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ============================================
+# KEEP THESE IMPORTANT FILES/FOLDERS
+# ============================================
+
+# Keep all code
+!code/
+!code/**/*.py
+!code/**/__init__.py
+
+# Keep all images (but not the large raw datasets)
+!data/images/
+!data/images/color/
+!data/images/grayscale/
+!data/images/color/*.jpg
+!data/images/color/*.png
+!data/images/grayscale/*.jpg
+!data/images/grayscale/*.png
+
+# Keep text payloads
+!data/text_payloads/
+!data/text_payloads/*.txt
+
+# Keep results (tables, graphs, figures)
+!results/
+!results/tables/
+!results/graphs/
+!results/histograms/
+!results/*.txt
+!results/*.json
+
+# Keep generated figures
+!figures/
+!figures/*.png
+
+# Keep configuration and requirements
+!config.json
+!requirements.txt
+!README.md
+
+# Keep all Python scripts in root
+!*.py
+
+# Keep project documentation
+!setup_project.py
+!install_dependencies.py
+!run_experiments.py
+!generate_results.py
+!run_color_only.py
+
+# Keep debug scripts (optional - remove if not needed)
+!debug_*.py
+!check_results.py
+!create_synthetic_xrays.py
+!download_*.py
+
+# ============================================
+# System Files
+# ============================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Jupyter Notebooks (if any)
+# ============================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# OS specific
+# ============================================
+# Windows
+*.dll
+*.exe
+*.msi
+*.pdb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+*.old
+*.orig
